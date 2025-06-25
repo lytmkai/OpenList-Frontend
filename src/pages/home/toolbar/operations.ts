@@ -7,7 +7,7 @@ import { AiTwotoneDelete } from "solid-icons/ai"
 import { CgFileAdd, CgFolderAdd, CgFolderRemove } from "solid-icons/cg"
 import { AiOutlineCloudDownload } from "solid-icons/ai"
 import { ImMoveUp } from "solid-icons/im"
-import { BiRegularRename } from "solid-icons/bi"
+import { BiRegularRename, BiRegularSend } from "solid-icons/bi"
 
 export interface Operations {
   [key: string]: {
@@ -30,6 +30,7 @@ export const operations: Operations = {
   new_file: { icon: CgFileAdd, p: true },
   cancel_select: { icon: TiDeleteOutline },
   download: { icon: AiOutlineCloudDownload, color: "$primary9" },
+  send_aria2: { icon: BiRegularSend, color: "$info9" },
 }
 // interface Operation {
 //   label: string;
